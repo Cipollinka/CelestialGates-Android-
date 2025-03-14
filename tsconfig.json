@@ -1,0 +1,23 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./root/*"
+      ]
+    },
+    "types": [
+      "nativewind/types"
+    ],
+    "strict": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "root/**/*",
+    "App.tsx",
+    "root/types/*.d.ts",
+    "nativewind-env.d.ts"
+  ]
+}
