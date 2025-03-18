@@ -79,7 +79,7 @@ android {
 
     namespace "com.celestial_gates"
     defaultConfig {
-        applicationId "com.gates.olympus.app"
+        applicationId "gate.olympus.gates.world.of"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
